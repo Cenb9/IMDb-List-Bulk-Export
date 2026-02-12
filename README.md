@@ -4,14 +4,12 @@ Bulk download public IMDb lists using Chrome, Selenium & Python.
 No interaction needed after running the script.
 All tools except Chrome browser is portable.
 
-Workflow = 
-```
-Python script  →  Selenium →  ChromeDriver  →  Chrome Browser
-```
+> Workflow = Python script  →  Selenium →  ChromeDriver  →  Chrome Browser
 
 After running the script, it will open the first IMDb list page > Auto click the 'Export' button > Wait a few seconds for the export to finish > Go to 'https://www.imdb.com/exports/' > Auto click the 'Ready' button > Download CSV file > Rename the CSV to list's name > Move on to the next list.
 After downloading all the lists, it will show a summary & generate a log file.
 
+---
 
 ### 🔹 1st Step : Download these tools (Portable) = 
 
@@ -92,6 +90,8 @@ python bulk_imdb_export.py lists.txt --delay=25 --outdir=E:\imdb_exports
 ● Wait for all downloads to finish.
 For big lists (2000+ Titles) set Delay to 30s.
 
+---
+---
 
 ## 🔹 Extras = 
 
