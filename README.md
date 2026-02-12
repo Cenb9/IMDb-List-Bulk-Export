@@ -16,7 +16,10 @@ After downloading all the lists, it will show a summary & generate a log file.
 ### 🔹 1st Step : Download these tools (Portable) = 
 
 https://winpython.github.io/	(0dot.zip File)
+
 https://googlechromelabs.github.io/chrome-for-testing/	(Chromedriver win64)
+
+https://github.com/Cenb9/IMDb-List-Bulk-Export/releases
 
 Chrome driver version must be the same as your chrome browser version. Check version in chrome://settings/help.
 If your browser versions driver is not available, replace the version number in the URL 
