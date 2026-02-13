@@ -53,7 +53,7 @@ Copy & paste them in lists.txt file.
 Copy bulk_imdb_export.py , chrome_settings.py , chromedriver.exe & lists.txt inside 'notebooks' folder of WinPython.
 
 ● Run 'WinPython Powershell Prompt'
-Enter
+, Enter
 ```
 python -m pip install selenium
 ```
